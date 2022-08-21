@@ -7,5 +7,10 @@ post have private and public status
 upload picture
 
 admin can create category
+
+
 -------------
+
 other user just see post 
+
+this project not completed

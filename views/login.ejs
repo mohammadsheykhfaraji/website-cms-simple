@@ -1,0 +1,27 @@
+
+    <!--form area start-->
+    <div class="form">
+      <!--login form start-->
+      <form class="login-form " action="/users/login" method="post">
+        <%- include("./includes/loginmessage.ejs")  %> 
+        <i class="fa fa-user-circle"></i>
+        <input class="user-input" type="email" name="email" placeholder="ایمیل" required>
+        <input class="user-input" type="password" name="password" placeholder="رمز عبور" required>
+        <div class="options-01">
+          <label class="remember-me"> من را به خاطر بسپار!  <input type="checkbox" name="remmember"> </label>
+          <a class="mb-2" href="#">ایا رمز عبور خود را فراموش کرده اید؟</a>
+        </div>
+       
+        <div class="form-group" style="width: 320px;">
+          <div class="g-recaptcha"  data-sitekey="6LeLWYQeAAAAAC5KGMZ8X07Y0wr8H5kXbsJXBVM7"></div>
+        </div>
+        <input class="btn" type="submit" name="" value="ورود">
+        <div class="options-02">
+          <p>ثبت نام نکرده اید؟ <a href="/users/register">ایجاد حساب کاربری</a></p>
+        </div>
+      </form>
+      <!--login form end-->
+      </div>
+    
+
+ 

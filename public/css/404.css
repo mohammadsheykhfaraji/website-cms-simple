@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+
+body { 
+  background-color: #030d18; 
+  color: #fff;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  border: 1px solid #efefef;
+  padding: .5em;
+  border-radius: 3px;
+  float: left;
+  /* margin: 6em 0 0 -155px; */
+  left: 45%;
+  position: relative;
+  transition: all .3s linear;
+}
+
+.button:hover {
+  background-color: #030d18;
+  color: #fff;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+h1 {
+  text-align: center;
+  font-size: 15em;
+  font-weight: 100;
+  text-shadow: #010407 1px 1px, #010407 2px 2px, #010407 3px 3px, #010407 4px 4px, #010407 5px 5px, #010407 6px 6px, #010407 7px 7px, #010407 8px 8px, #010407 9px 9px, #010407 10px 10px, #010407 11px 11px, #010407 12px 12px, #010407 13px 13px, #010407 14px 14px, #010407 15px 15px, #010407 16px 16px, #010407 17px 17px, #010407 18px 18px, #010407 19px 19px, #010407 20px 20px, #010407 21px 21px, #010407 22px 22px, #010407 23px 23px, #010407 24px 24px, #010407 25px 25px, #010407 26px 26px, #010407 27px 27px, #010407 28px 28px, #010407 29px 29px, #010407 30px 30px, #010407 31px 31px, #010407 32px 32px, #010407 33px 33px, #010407 34px 34px, #010407 35px 35px, #010407 36px 36px, #010407 37px 37px, #010407 38px 38px, #010407 39px 39px, #010407 40px 40px, #010407 41px 41px, #010407 42px 42px, #010407 43px 43px;
+}

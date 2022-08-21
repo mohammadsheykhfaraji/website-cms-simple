@@ -1,0 +1,17 @@
+<div class="form">
+  <!--signup form start-->
+  <form class="signup-form" action="/users/register" method="post">
+    <%- include("./includes/validateerror.ejs")  %> 
+    <i class="fa fa-user-plus"></i>
+    <input class="user-input" type="text" name="fullname" placeholder="نام و نام خوانوادگی" >
+    <input class="user-input" type="email" name="email" placeholder="ایمیل" >
+    <input class="user-input" type="password" name="password" placeholder="رمز عبور" >
+    <input class="user-input" type="password" name="confirmpassword" placeholder="تکرار رمز عبور" >
+    <input class="btn" type="submit" name="" value="ثبت نام">
+    <div class="options-02">
+      <p> ایا ثبت نام کرده اید؟ <a href="/users/login"> صفحه ورود </a></p>
+    </div>
+  </form>
+  <!--signup form end-->
+</div>
+<!--form area end-->
